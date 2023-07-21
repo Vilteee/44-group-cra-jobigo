@@ -1,0 +1,57 @@
+.main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+  
+}
+
+.columnWelcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(42, 25, 239);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 75%;
+    height:100%;
+    padding: 0.8rem 0.8rem;
+}
+
+
+.column {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    height: 100%;
+    width: 75%;
+    padding: 1rem 1rem;
+    margin-left: 1rem;
+   
+}
+
+.sectionsSecondThird {
+    background-color: rgb(233, 232, 232);
+    padding: 0;
+    border-radius: 10px;
+    padding: 1.5rem 1rem;
+}
+
+.icon {
+
+}
+
+.number{
+    font-size: 2rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+
+}
+
+.title{
+    color: rgb(167, 160, 160);
+    font-weight: 300;
+}

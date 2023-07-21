@@ -1,0 +1,7 @@
+.asideRight {
+    grid-area: asideRight;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+}

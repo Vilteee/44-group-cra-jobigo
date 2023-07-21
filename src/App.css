@@ -1,0 +1,31 @@
+.app {
+    display: grid;
+    grid-template-columns: 5rem 1fr 20rem;
+    grid-template-areas:
+        'asideLeft header asideRight'
+        'asideLeft main asideRight';
+}
+
+.jobsPostIcon {
+    color: rgb(244, 175, 46);
+    height: 50px;
+    width: 50px;
+}
+
+.applicantIcon {
+    color:rgb(66, 124, 225);
+    height: 50px;
+    width: 50px;
+}
+
+.jobsClosedIcon {
+    color:rgb(230, 144, 102);
+    height: 50px;
+    width: 50px;
+}
+
+.hiredSuccessIcon {
+    color:rgb(136, 236, 196);
+    height: 50px;
+    width: 50px;
+}
