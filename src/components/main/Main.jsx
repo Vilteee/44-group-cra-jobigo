@@ -4,13 +4,13 @@ import { Section2 } from './sections/section2/Section2';
 import { Section3 } from './sections/section3/Section3';
 
 
-export function Main({statisticData,seekersData }) {
+export function Main({statisticData,seekersData,jobPostsData }) {
     return (
         <main className={style.main}>
             <Section1 section1Data={statisticData}/>
             <div className={style.sectionsSecondThird}>
                 <Section2 section2Data={seekersData} /> 
-                <Section3 /> 
+                <Section3  section3Data={jobPostsData}/> 
             </div>
         </main>
     )

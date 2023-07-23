@@ -1,3 +1,9 @@
+:root {
+   --blue-details: blue; 
+   --blue-background: rgb(207, 215, 241);
+   --grey-details: rgb(120, 117, 117);
+}
+
 .main {
     grid-area: main;
     display: flex;
@@ -10,7 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(42, 25, 239);
+    background-color: rgb(51, 34, 239);
     color: white;
     border-radius: 20px;
     text-align: center;
@@ -38,6 +44,177 @@
     padding: 0;
     border-radius: 10px;
     padding: 1.5rem 1rem;
+}
+.columnSeekers {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 15px;
+    width: 32%;
+}
+
+
+
+.headerSeeker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.17rem solid rgb(233, 232, 232);
+    padding-bottom: 1rem;
+
+}
+
+.headerSeekerLeft {
+    margin-right: 2rem;
+}
+
+.headerSeekerIcons {
+    margin-left: 3rem;
+    display: flex;
+    margin: 0  0.7rem;
+    color: rgb(120, 117, 117);
+}
+
+.seekerPosition {
+    color: rgb(120, 117, 117);
+}
+
+.seekerMoney {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.seekerMoneyIcon {
+    margin-right: 0.5rem;
+    color: var(--blue-details);
+}
+
+.seekerWorkingTime {
+    display: flex;
+    margin-right: 1.5rem ;
+    align-items: center;
+
+}
+
+.seekerrWorkingTimeIcon {
+    margin-right: 0.5rem;
+    color: var(--blue-details);
+}
+
+.seekerLevelIcon {
+    margin-right: 0.5rem;
+    color: var(--blue-details);
+}
+
+.seekerLevel {
+    display: flex;
+    align-items: center;
+}
+
+.seekerProperties {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.inviteButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+} 
+
+.inviteButtonStyle {
+    color: var(--blue-details);
+    background-color: var(--blue-background);
+    width: 89%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 0;
+}
+
+.columnJobPosts {
+    background-color: white;
+    width: 32%;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.columnJobPostsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.17rem solid rgb(233, 232, 232);
+    padding-bottom: 1rem;
+}
+
+.jobLocation {
+    color:var(--grey-details);
+}
+
+.threeDotsIcon {
+    margin-left: 2.7rem;
+    height: 27px;
+    width: 27px;
+    color:var(--grey-details);
+}
+
+.jobPostTime {
+    color:var(--grey-details);
+}
+
+.jobEarnings {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.jobMoneyIcon {
+    margin-right: 0.7rem;
+    color: var(--blue-details);
+}
+
+.jobPostsProperties {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0;
+}
+
+.JobLevel {
+    display: flex;
+    align-items: center;
+}
+
+.jobWorkingTime {
+    display: flex;
+    align-items: center;
+}
+
+.jobApplicants {
+    display: flex;
+    align-items: center;
+}
+
+.jobLevelIcon {
+    margin-right: 0.4rem;
+    color: var(--blue-details);
+}
+
+.jobWorkingTimeIcon {
+    margin-right: 0.4rem;
+    color: var(--blue-details);
+}
+
+.jobApplicantsIcon {
+    margin-right: 0.4rem;
+    color: var(--blue-details);
+}
+
+.jobAdvantages {
+    color:var(--grey-details);
 }
 
 .icon {

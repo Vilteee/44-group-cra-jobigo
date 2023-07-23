@@ -54,7 +54,7 @@ let hiredSuccessIcon = <VscGraphLine className='hiredSuccessIcon' />;
 
   const data1 = [
     {
-      seekerPhoto: 'seeker1.png',
+      seekerPhoto: './img/seekers/seeker1.png',
       seekerName: 'Muhammad Zahid',
       seekerPosition: 'UI/UX Designer',
       seekerIncome:'22,174 - 40,234 VND', 
@@ -63,7 +63,7 @@ let hiredSuccessIcon = <VscGraphLine className='hiredSuccessIcon' />;
 
     },
     {
-      seekerPhoto: 'seeker2.png',
+      seekerPhoto: './img/seekers/seeker2.png',
       seekerName: 'Samra Khawar',
       seekerPosition: 'HR Manager',
       seekerIncome:'22,174 - 40,234 VND', 
@@ -72,7 +72,7 @@ let hiredSuccessIcon = <VscGraphLine className='hiredSuccessIcon' />;
 
     },
     {
-      seekerPhoto: 'seeker3.png',
+      seekerPhoto: './img/seekers/seeker3.png',
       seekerName: 'Asif Ahmed',
       seekerPosition: 'Laravel Developer',
       seekerIncome:'22,174 - 40,234 VND', 
@@ -81,11 +81,46 @@ let hiredSuccessIcon = <VscGraphLine className='hiredSuccessIcon' />;
 
     }
   ]
+
+  const data2 = [
+    {
+      jobPosition:'Web Developer',
+      jobLocation:'San Francisco',
+      jobPostTime:'6 days ago',
+      jobEarnings:'22,174 - 40,234 VND',
+      jobLevelNeeded:'Experienced',
+      jobWorkingTime:'Seasonal',
+      jobApplicationsAmount:'15 Applications',
+      jobAdvantages:'Unforgetable travel experiences, calm work places, friendly team, flexible work hours, remote working.'
+    },
+    {
+      jobPosition:'iOS Developer',
+      jobLocation:'Las vegas',
+      jobPostTime:'4 days ago',
+      jobEarnings:'30,174 - 55,234 VND',
+      jobLevelNeeded:'Experienced',
+      jobWorkingTime:'Full time',
+      jobApplicationsAmount:'5 Applications',
+      jobAdvantages:'Unforgetable travel experiences, calm work places, friendly team, flexible work hours, remote working.'
+
+    },
+    {
+      jobPosition:'3D Animator',
+      jobLocation:'Washington',
+      jobPostTime:'3 days ago',
+      jobEarnings:'35,174 - 45,455 VND',
+      jobLevelNeeded:'Experienced',
+      jobWorkingTime:'Part-time',
+      jobApplicationsAmount:'8 Applications',
+      jobAdvantages:'Unforgetable travel experiences, calm work places, friendly team, flexible work hours, remote working.'
+
+    }
+  ]
   return (
     <div className="app">
       <AsideRight />
       <Header />
-      <Main statisticData={data} seekersdata={data1}/>
+      <Main statisticData={data} seekersData={data1} jobPostsData={data2}/>
       <AsideLeft />
       
     </div>

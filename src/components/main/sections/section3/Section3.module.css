@@ -1,0 +1,12 @@
+.jobPostsTitle{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1.7rem;
+}
+
+.jobPostsColumns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
